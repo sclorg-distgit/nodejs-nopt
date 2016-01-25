@@ -3,8 +3,8 @@
 %{?nodejs_find_provides_and_requires}
 
 Name:       %{?scl_prefix}nodejs-nopt
-Version:    3.0.1
-Release:    1.sc1%{?dist}
+Version:    3.0.6
+Release:    1%{?dist}
 Summary:    Node.js option parsing
 License:    MIT
 Group:      System Environment/Libraries
@@ -46,6 +46,9 @@ rm -rf %{buildroot}
 %doc README.md LICENSE examples
 
 %changelog
+* Mon Nov 30 2015 Tomas Hrcka <thrcka@redhat.com> - 3.0.6-1
+- New upstream release
+
 * Fri Jan 09 2015 Tomas Hrcka <thrcka@redhat.com> - 3.0.1-3
 - New upstream release 3.0.1
 
